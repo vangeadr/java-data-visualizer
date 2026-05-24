@@ -117,5 +117,8 @@ public class Main
         // ==========================================================
         // Pass your dynamically calculated intercept (a) and slope (b) to the graph engine
         GraphGenerator.createScatterPlot(data, "scatterplot.png", a, b);
+
+        // TODO: Implement JavaFX GUI visualization pipeline for dynamic plotting
+        // TODO: Add support for multivariate polynomial regression algorithms
     }
 }
